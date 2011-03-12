@@ -1,0 +1,11 @@
+<% @status = "foo" %>
+The case is: <br />
+
+<% case @status %>
+  <% when "foo" %>
+    It's a FOO!
+  <% when "bar" %>
+    It's a BAR!
+  <% else %>
+    It's something else...!
+<% end %>
